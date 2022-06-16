@@ -22,13 +22,13 @@ Live Code ini dikerjakan dalam format ***notebook*** isi *notebook* harus mengik
 ## Problems
 
 1. Kamu ada seorang data scientist di salah satu penyedia jasa makananan diet & healthy catering. Tim Perencanaan meminta kamu untuk mengecek kebutuhan energi dasar (BMR) harian dari customer. Informasi ini selanjutnya akan digunakan sebagai pertimbangan dalam penyusunan menu diet.
-Kamu dapat menghitung kebutuhan energi dasar (BMR) harian dengan rumus berikut:
 
-- BMR Laki-laki:
+Kamu dapat menghitung kebutuhan energi dasar (BMR) harian dengan rumus berikut:
+- BMR Laki-laki
 
 <p align="center"><img src="https://latex.codecogs.com/svg.image?BMR&space;=&space;66&space;&plus;&space;(13.7&space;*&space;BB)&space;&plus;&space;(5&space;*&space;TB)&space;-&space;(6.8&space;*&space;U)" title="bmr_male" /></p>
 
-- BMR Perempuan:
+- BMR Perempuan
 
 <p align="center"><img src="https://latex.codecogs.com/svg.image?BMR&space;=&space;655&space;&plus;&space;(9.6&space;*&space;BB)&space;&plus;&space;(1.8&space;*&space;TB)&space;-&space;(4.7&space;*&space;U)" title="bmr_female" class="center" /></p>
 

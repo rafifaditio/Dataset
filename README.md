@@ -27,7 +27,7 @@ Live Code ini dikerjakan dalam format ***notebook*** isi *notebook* harus mengik
 <p align="center"><img src="https://latex.codecogs.com/svg.image?BMR&space;=&space;66&space;&plus;&space;(13.7&space;*&space;BB)&space;&plus;&space;(5&space;*&space;TB)&space;-&space;(6.8&space;*&space;U)" title="bmr_male" /></p>
 
 
-<p align="center"><img src="https://latex.codecogs.com/png.latex?P=VI" title="P=VI" class="center" /></p>
+<p align="center"><img src="https://latex.codecogs.com/svg.image?BMR&space;=&space;655&space;&plus;&space;(9.6&space;*&space;BB)&space;&plus;&space;(1.8&space;*&space;TB)&space;-&space;(4.7&space;*&space;U)" title="bmr_female" class="center" /></p>
 
 - R adalah Kapasitas dalam satuan Ohm
 - P adalah Daya dalam Watt

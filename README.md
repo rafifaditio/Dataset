@@ -21,7 +21,7 @@ Live Code ini dikerjakan dalam format ***notebook*** isi *notebook* harus mengik
 
 ## Problems
 
-1. Kamu ada seorang data scientist di salah satu penyedia jasa makananan diet & healthy catering. Tim Perencanaan meminta kamu untuk mengecek kebutuhan energi dasar (BMR) harian dari customer. Informasi ini selanjutnya akan digunakan sebagai pertimbangan dalam penyusunan menu diet.
+Kamu ada seorang data scientist di salah satu penyedia jasa makananan diet & healthy catering. Tim Perencanaan meminta kamu untuk mengecek kebutuhan energi dasar (BMR) harian dari customer. Informasi ini selanjutnya akan digunakan sebagai pertimbangan dalam penyusunan menu diet.
 
 Kamu dapat menghitung kebutuhan energi dasar (BMR) harian dengan rumus berikut:
 - BMR Laki-laki

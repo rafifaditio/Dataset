@@ -44,7 +44,7 @@ c. Hitunglah rata-rata berat badan untuk Jenis kelamin laki-laki dengan umur leb
 
 
 ## Dataset
-Dataset dapat diakses pada link berikut: 'https://raw.githubusercontent.com/rafifaditio/Dataset/main/BMR.csv'
+Dataset dapat diakses pada link berikut: https://raw.githubusercontent.com/rafifaditio/Dataset/main/BMR.csv
 
 **Keterangan kolom:**
 - Age: Usia

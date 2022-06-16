@@ -24,7 +24,7 @@ Live Code ini dikerjakan dalam format ***notebook*** isi *notebook* harus mengik
 1. Kamu adalah seorang data scientist yang bekerja di salah satu perusahaan manufaktur baterai Lithium ion. Tim produksi meminta kamu untuk mengecek apakah baterai yang mereka buat dalam kondisi bagus atau tidak. Sebelum melakukan pengecekan lebih lanjut, kamu diminta untuk menghitung hambatan/resistansi dan Daya setiap detik:
 
 
-<p align="center"><img src="\[ https://latex.codecogs.com/svg.image?BMR = 66 + (13.7 * BB) + (5 * TB) - (6.8 * U)\]" title="R=\frac{V}{I}" /></p>
+<p align="center"><img src="https://latex.codecogs.com/svg.image?BMR&space;=&space;66&space;&plus;&space;(13.7&space;*&space;BB)&space;&plus;&space;(5&space;*&space;TB)&space;-&space;(6.8&space;*&space;U)" title="bmr_male" /></p>
 
 
 <p align="center"><img src="https://latex.codecogs.com/png.latex?P=VI" title="P=VI" class="center" /></p>

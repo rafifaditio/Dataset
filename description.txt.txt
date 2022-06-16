@@ -1,0 +1,5 @@
+Resources and Credits:
+
+1. BMR.txt
+- Modified dataset from https://www.kaggle.com/datasets/josecordon/basal-metabolic-rate
+- Credits to Jose Cordon

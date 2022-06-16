@@ -32,8 +32,8 @@ Kamu dapat menghitung kebutuhan energi dasar (BMR) harian dengan rumus berikut:
 
 <p align="center"><img src="https://latex.codecogs.com/svg.image?BMR&space;=&space;655&space;&plus;&space;(9.6&space;*&space;BB)&space;&plus;&space;(1.8&space;*&space;TB)&space;-&space;(4.7&space;*&space;U)" title="bmr_female" class="center" /></p>
 
-- BB adalah Berat Badan dalam satuan kilogram
-- TB adalah Tinggi Badan dalam satuan centimeter
+- BB adalah Berat Badan dalam satuan Kilogram
+- TB adalah Tinggi Badan dalam satuan sentimeter
 - U adalah Usia dalam satuan tahun
 
 a. Buatlah dua fungsi eksplisit masing-masing memuat perhitungan BMR laki-laki dan BMR Perempuan yang nantinya akan digunakan untuk perhitungan

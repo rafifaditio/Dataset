@@ -21,35 +21,37 @@ Live Code ini dikerjakan dalam format ***notebook*** isi *notebook* harus mengik
 
 ## Problems
 
-1. Kamu adalah seorang data scientist yang bekerja di salah satu perusahaan manufaktur baterai Lithium ion. Tim produksi meminta kamu untuk mengecek apakah baterai yang mereka buat dalam kondisi bagus atau tidak. Sebelum melakukan pengecekan lebih lanjut, kamu diminta untuk menghitung hambatan/resistansi dan Daya setiap detik:
+1. Kamu ada seorang data scientist di salah satu penyedia jasa makananan diet & healthy catering. Tim Perencanaan meminta kamu untuk mengecek kebutuhan energi dasar (BMR) harian dari customer. Informasi ini selanjutnya akan digunakan sebagai pertimbangan dalam penyusunan menu diet.
+Kamu dapat menghitung kebutuhan energi dasar (BMR) harian dengan rumus berikut:
 
+- BMR Laki-laki:
 
 <p align="center"><img src="https://latex.codecogs.com/svg.image?BMR&space;=&space;66&space;&plus;&space;(13.7&space;*&space;BB)&space;&plus;&space;(5&space;*&space;TB)&space;-&space;(6.8&space;*&space;U)" title="bmr_male" /></p>
 
+- BMR Perempuan:
 
 <p align="center"><img src="https://latex.codecogs.com/svg.image?BMR&space;=&space;655&space;&plus;&space;(9.6&space;*&space;BB)&space;&plus;&space;(1.8&space;*&space;TB)&space;-&space;(4.7&space;*&space;U)" title="bmr_female" class="center" /></p>
 
-- R adalah Kapasitas dalam satuan Ohm
-- P adalah Daya dalam Watt
-- I adalah kuat arus dalam satuan Ampere
-- V adalah tegangan dalam satuan Volt
+- BB adalah Berat Badan dalam satuan kilogram
+- TB adalah Tinggi Badan dalam satuan centimeter
+- U adalah Usia dalam satuan tahun
 
-a. Buatlah dua fungsi eksplisit masing-masing memuat perhitungan hambatan (R) dan daya (P) yang nantinya akan digunakan untuk perhitungan
+a. Buatlah dua fungsi eksplisit masing-masing memuat perhitungan BMR laki-laki dan BMR Perempuan yang nantinya akan digunakan untuk perhitungan
 
-b. Buat kolom baru dengan nama kolom R/P berisikan hasil perhitungan daya/hambatan dengan kriteria untuk Kapasitas >=2.5 hitung daya, Kapasitas <2.5 hitung nilai hambatan. (**Hint:** Gunakan for loop dan if statement untuk mengerjakan perintah nomor b, kamu bisa menggunakan list untuk menyimpan perhitungan sementara, setelahnya dapat dimasukkan ke kolom R/P).
+b. Buat kolom baru dengan nama kolom **BMR** berisikan hasil perhitungan kebutuhan energi dasar (BMR) harian sesuai dengan jenis kelamin masing-masing pelanggan. (**Hint:** Gunakan for loop dan if statement untuk mengerjakan perintah nomor b, kamu bisa menggunakan list untuk menyimpan perhitungan sementara, setelahnya dapat dimasukkan ke kolom **BMR**).
 
-c. Hitunglah rata-rata nilai kapasitas untuk arus = 1 Ampere dan cycle ganjil.
+c. Hitunglah rata-rata berat badan untuk Jenis kelamin laki-laki dengan umur lebih dari sama dengan 24 tahun hingga kurang dari sama dengan 35 tahun.
 
 
 ## Dataset
-Dataset dapat diakses pada link berikut: https://github.com/fahmimnalfrzki/Dataset/blob/main/NMC1-9.xlsx?raw=true
+Dataset dapat diakses pada link berikut: 'https://raw.githubusercontent.com/rafifaditio/Dataset/main/BMR.csv'
 
 **Keterangan kolom:**
-- time(s): Detik ke- pengukuran
-- V_m: Voltage/tegangan yang terukur tiap waktu
-- Current (A): Kuat arus terukur tiap waktu
-- Cycle: Nomor siklus charge-discharge baterai
-- Cap: Kapasitas baterai tiap waktu
+- Age: Usia
+- Gender: Jenis Kelamin
+- Height (cm): Tinggi Badan
+- Weight (kg): Berat badan
+- Index: Pengelompokkan berdasarkan BMI
 
 ---
 
